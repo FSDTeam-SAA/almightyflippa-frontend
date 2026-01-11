@@ -15,7 +15,7 @@ export function Hero() {
 
         {/* Left Content */}
         <div className="flex flex-col justify-center space-y-6 col-span-12 lg:col-span-7">
-          <div className="inline-flex items-center gap-2 w-fit bg-[#F5EDDF] rounded-full px-3 py-1 ">
+          <div className="inline-flex items-center gap-2 w-fit bg-[#E5C589] rounded-full px-3 py-1 ">
             <Image src="/assets/check.png" alt="Icon" width={1000} height={1000} className="w-[16px] h-[16px] object-cover" />
             <span className="text-sm font-medium text-[#424242]">
               Your TV your control
