@@ -1,6 +1,7 @@
 import Image from "next/image";
+import buttonimage from "../../public/assets/Button.png"
 
-export function AppStorePreview() {
+export function  AppStorePreview() {
   return (
     <section className="relative w-full  px-4 md:px-0 pt-16 md:pt-24"
       style={{
@@ -22,7 +23,7 @@ export function AppStorePreview() {
             </p>
 
             <button className="bg-transparent w-[130px] h-[40px] md:h-[56px] md:w-[157px] hover:scale-105 duration-300">
-              <Image src="/assets/button.png" alt="Google Play" width={1000} height={1000} className="w-full h-full object-cover rounded-[8px]" />
+              <Image src={buttonimage} alt="Google Play" width={1000} height={1000} className="w-full h-full object-cover rounded-[8px]" />
             </button>
           </div>
 

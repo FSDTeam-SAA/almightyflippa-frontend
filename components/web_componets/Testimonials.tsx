@@ -62,7 +62,7 @@ export function Testimonials() {
     },
     {
       icon: "/assets/t4.png",
-      title: "Offline support",
+      title: "Email support",
       description:
         "Do it securely with time-sensitive links. Choose expiration durations of 1, 3, 24 hours or even longer if you wish to give a friend access to a link for a specific time frame.",
     },

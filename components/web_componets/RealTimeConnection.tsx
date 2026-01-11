@@ -45,10 +45,10 @@ export function RealTimeConnection() {
       "linear-gradient(84.54deg, #FBB41D 0.86%, #7E5D18 95.33%)",
   }}
 >
-  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-12 items-center">
     
     {/* Left - Phone Image */}
-    <div className="w-full h-[320px] sm:h-[420px] lg:h-[654px]">
+    <div className="w-full h-[420px] sm:h-[420px] lg:h-[654px]">
       <Image
         src="/assets/mobile.png"
         alt="Two Phones"
