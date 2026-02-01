@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4 text-blue-600 dark:text-blue-400">
-          3. Data Security
+          3. Data Security For LabbyTV
         </h2>
         <p className="leading-relaxed">
           We take reasonable measures to help protect information about you from
