@@ -1,5 +1,6 @@
 import Image from "next/image";
 import buttonimage from "../../public/assets/Button.png"
+import Link from "next/link";
 
 export function  AppStorePreview() {
   return (
@@ -21,10 +22,11 @@ export function  AppStorePreview() {
               Install in seconds and start enjoying right away. No trials, no hidden catches—just smooth, hassle-free
               entertainment.
             </p>
-
+              <Link href="https://apps.apple.com/ca/app/labby-tv/id6758971186">
             <button className="bg-transparent w-[130px] h-[40px] md:h-[56px] md:w-[157px] hover:scale-105 duration-300">
               <Image src={buttonimage} alt="Google Play" width={1000} height={1000} className="w-full h-full object-cover rounded-[8px]" />
             </button>
+            </Link>
           </div>
 
           {/* Right - App Store Preview */}
