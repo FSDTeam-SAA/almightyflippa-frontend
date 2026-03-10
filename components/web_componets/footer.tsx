@@ -21,15 +21,19 @@ export function Footer() {
         {/* Social buttons */}
         <div className="flex items-center gap-4">
           {/* show smaller buttons on mobile */}
-          <button className="w-6 h-6 sm:w-[24px] sm:h-[24px]">
-            <Image src="/assets/n1.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
-          </button>
-          <button className="w-6 h-6 sm:w-[24px] sm:h-[24px]">
-            <Image src="/assets/n2.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
-          </button>
-          <button className="w-6 h-6 sm:w-[24px] sm:h-[24px]">
+          <Link href="https://apps.apple.com/ca/app/labby-tv/id6758971186">
+            <button className="w-6 h-6 sm:w-[24px] sm:h-[24px]">
+              <Image src="/assets/n1.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
+            </button>
+          </Link>
+          <Link href="https://play.google.com/store/apps/details?id=com.almightyflippa.labbytv">
+            <button className="w-6 h-6 sm:w-[24px] sm:h-[24px]">
+              <Image src="/assets/n2.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
+            </button>
+          </Link>
+          {/* <button className="w-6 h-6 sm:w-[24px] sm:h-[24px]">
             <Image src="/assets/n3.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
-          </button>
+          </button> */}
         </div>
 
        
