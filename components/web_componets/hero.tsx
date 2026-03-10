@@ -3,6 +3,7 @@
 
 import Image from "next/image"
 import buttonimage from "../../public/assets/Button.png"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -32,9 +33,11 @@ export function Hero() {
           </p>
 
           <div className="flex  gap-4 pt-4">
+            <Link href="https://apps.apple.com/ca/app/labby-tv/id6758971186">
             <button className="bg-transparent w-[130px] h-[40px] md:h-[56px] md:w-[157px] hover:scale-105 duration-300">
               <Image src={buttonimage} alt="Google Play" width={1000} height={1000} className="w-full h-full object-cover rounded-[8px]" />
             </button>
+            </Link>
             <button className="bg-transparent hover:scale-105 duration-300 flex items-center gap-2 text-base font-bold text-[#131313]">
               <Image src="/assets/buton_icon.png" alt="Watch Videos" width={1000} height={1000} className="w-[32px] h-[32px] object-cover" />
               <span>Watch Videos</span>
