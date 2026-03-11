@@ -34,15 +34,19 @@ export function Navbar() {
             <div className="flex items-center gap-4">
               {/* Desktop Icons */}
               <div className="hidden md:flex items-center gap-4">
+                <Link href="https://apps.apple.com/ca/app/labby-tv/id6758971186">
                 <button className="w-[24px] h-[24px]">
                   <Image src="/assets/n1.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
                 </button>
+                </Link>
+                <Link href="https://play.google.com/store/apps/details?id=com.almightyflippa.labbytv">
                 <button className="w-[24px] h-[24px]">
                   <Image src="/assets/n2.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
                 </button>
-                <button className="w-[24px] h-[24px]">
+                </Link>
+                {/* <button className="w-[24px] h-[24px]">
                   <Image src="/assets/n3.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
-                </button>
+                </button> */}
               </div>
 
               {/* Mobile Menu Button */}
@@ -65,15 +69,16 @@ export function Navbar() {
 
                     {/* Mobile Icons */}
                     <div className="flex items-center gap-3 pt-4 border-t border-gray-800">
+                      <Link href="https://apps.apple.com/ca/app/labby-tv/id6758971186">
                       <button className="w-[24px] h-[24px]">
                         <Image src="/assets/n1.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
                       </button>
+                      </Link>
+                      <Link href="https://play.google.com/store/apps/details?id=com.almightyflippa.labbytv">
                       <button className="w-[24px] h-[24px]">
                         <Image src="/assets/n2.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
                       </button>
-                      <button className="w-[24px] h-[24px]">
-                        <Image src="/assets/n3.png" alt="User" width={1000} height={1000} className="w-full h-full object-cover" />
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </SheetContent>
